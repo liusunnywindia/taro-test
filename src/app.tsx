@@ -28,9 +28,9 @@ class App extends Component {
    */
   config: Config = {
     pages: [
-      'pages/test/index',
       'pages/homePage/index',
-      'pages/freeSignin/index'
+      'pages/freeSignin/index',
+      'pages/test/index',
     ],
     window: {
       backgroundTextStyle: 'light',

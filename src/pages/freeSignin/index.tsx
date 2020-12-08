@@ -1,13 +1,14 @@
-import Taro, { useState,useEffect} from '@tarojs/taro'
+import Taro, { useState,useEffect,useRouter} from '@tarojs/taro'
 import {WebView } from '@tarojs/components'
 import './index.scss'
  
 const FreeSign = () =>{
-
+  const router = useRouter()
   const [link,setLink] = useState('')
 
   useEffect(()=>{
-    const link = 'https://sc2.hexiaoxiang.com/createHtml/1604750994350.html'
+    console.log(router.params.url)
+    const link = router.params.url
     setLink(link)
   },[])
 
