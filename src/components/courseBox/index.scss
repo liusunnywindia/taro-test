@@ -1,0 +1,45 @@
+.box-right{
+  width: 144px;
+  height: 64px;
+  background: #2AC990;
+  border-radius: 50px;
+  font-size: 28px;
+  font-family: PingFangSC-Medium, PingFang SC;
+  font-weight: 500;
+  color: #FFFFFF;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.course-img{
+  width: 144px;
+  height: 144px;
+  background: #BABABA;
+}
+.course-info{
+  margin-left: 22px;
+}
+
+.course-title{
+font-size: 32px;
+font-family: PingFangSC-Medium, PingFang SC;
+font-weight: 500;
+color: #333333;
+display: block;
+}
+
+.course-tip{
+font-size: 24px;
+font-family: PingFangSC-Regular, PingFang SC;
+font-weight: 400;
+color: #999999;
+}
+.course-box{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 32px;
+}
+.box-left{
+  display: flex;
+}

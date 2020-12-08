@@ -1,0 +1,10 @@
+/config/
+/dist/
+/*.js
+/*.ts
+/*.test.ts
+/**/*.test.tsx
+/.test.js
+/**/*.test.jsx
+/npm/
+/node_modules/
